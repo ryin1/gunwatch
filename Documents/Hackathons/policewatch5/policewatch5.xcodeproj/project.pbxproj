@@ -1,0 +1,779 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F32475FF1C54452300D78F9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32475FE1C54452300D78F9D /* AppDelegate.swift */; };
+		F32476011C54452300D78F9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32476001C54452300D78F9D /* ViewController.swift */; };
+		F32476041C54452300D78F9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32476021C54452300D78F9D /* Main.storyboard */; };
+		F32476061C54452300D78F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F32476051C54452300D78F9D /* Assets.xcassets */; };
+		F32476091C54452300D78F9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32476071C54452300D78F9D /* LaunchScreen.storyboard */; };
+		F32476141C54452300D78F9D /* policewatch5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32476131C54452300D78F9D /* policewatch5Tests.swift */; };
+		F324761F1C54452300D78F9D /* policewatch5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324761E1C54452300D78F9D /* policewatch5UITests.swift */; };
+		F32476241C54452300D78F9D /* policewatch5 WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F32476231C54452300D78F9D /* policewatch5 WatchKit App.app */; };
+		F324762A1C54452300D78F9D /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F32476281C54452300D78F9D /* Interface.storyboard */; };
+		F324762C1C54452300D78F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F324762B1C54452300D78F9D /* Assets.xcassets */; };
+		F32476331C54452400D78F9D /* policewatch5 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F32476321C54452400D78F9D /* policewatch5 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F324763A1C54452400D78F9D /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32476391C54452400D78F9D /* InterfaceController.swift */; };
+		F324763C1C54452400D78F9D /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324763B1C54452400D78F9D /* ExtensionDelegate.swift */; };
+		F324763E1C54452400D78F9D /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F324763D1C54452400D78F9D /* NotificationController.swift */; };
+		F32476401C54452400D78F9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F324763F1C54452400D78F9D /* Assets.xcassets */; };
+		F3F8155F1C549522007DADA2 /* ApiCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F8155E1C549522007DADA2 /* ApiCenter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F32476101C54452300D78F9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F32475F31C54452300D78F9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32475FA1C54452300D78F9D;
+			remoteInfo = policewatch5;
+		};
+		F324761B1C54452300D78F9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F32475F31C54452300D78F9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32475FA1C54452300D78F9D;
+			remoteInfo = policewatch5;
+		};
+		F32476251C54452300D78F9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F32475F31C54452300D78F9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32476221C54452300D78F9D;
+			remoteInfo = "policewatch5 WatchKit App";
+		};
+		F32476341C54452400D78F9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F32475F31C54452300D78F9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F32476311C54452400D78F9D;
+			remoteInfo = "policewatch5 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F32476471C54452400D78F9D /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F32476331C54452400D78F9D /* policewatch5 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F324764B1C54452400D78F9D /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F32476241C54452300D78F9D /* policewatch5 WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F32475FB1C54452300D78F9D /* policewatch5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = policewatch5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32475FE1C54452300D78F9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F32476001C54452300D78F9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F32476031C54452300D78F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F32476051C54452300D78F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F32476081C54452300D78F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F324760A1C54452300D78F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F324760F1C54452300D78F9D /* policewatch5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = policewatch5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32476131C54452300D78F9D /* policewatch5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = policewatch5Tests.swift; sourceTree = "<group>"; };
+		F32476151C54452300D78F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F324761A1C54452300D78F9D /* policewatch5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = policewatch5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F324761E1C54452300D78F9D /* policewatch5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = policewatch5UITests.swift; sourceTree = "<group>"; };
+		F32476201C54452300D78F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32476231C54452300D78F9D /* policewatch5 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "policewatch5 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32476291C54452300D78F9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F324762B1C54452300D78F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F324762D1C54452300D78F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F32476321C54452400D78F9D /* policewatch5 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "policewatch5 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F32476381C54452400D78F9D /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F32476391C54452400D78F9D /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F324763B1C54452400D78F9D /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		F324763D1C54452400D78F9D /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F324763F1C54452400D78F9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F32476411C54452400D78F9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3F8155E1C549522007DADA2 /* ApiCenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCenter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F32475F81C54452300D78F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F324760C1C54452300D78F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32476171C54452300D78F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F324762F1C54452400D78F9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F32475F21C54452300D78F9D = {
+			isa = PBXGroup;
+			children = (
+				F32475FD1C54452300D78F9D /* policewatch5 */,
+				F32476121C54452300D78F9D /* policewatch5Tests */,
+				F324761D1C54452300D78F9D /* policewatch5UITests */,
+				F32476271C54452300D78F9D /* policewatch5 WatchKit App */,
+				F32476361C54452400D78F9D /* policewatch5 WatchKit Extension */,
+				F32475FC1C54452300D78F9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F32475FC1C54452300D78F9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F32475FB1C54452300D78F9D /* policewatch5.app */,
+				F324760F1C54452300D78F9D /* policewatch5Tests.xctest */,
+				F324761A1C54452300D78F9D /* policewatch5UITests.xctest */,
+				F32476231C54452300D78F9D /* policewatch5 WatchKit App.app */,
+				F32476321C54452400D78F9D /* policewatch5 WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F32475FD1C54452300D78F9D /* policewatch5 */ = {
+			isa = PBXGroup;
+			children = (
+				F32475FE1C54452300D78F9D /* AppDelegate.swift */,
+				F32476001C54452300D78F9D /* ViewController.swift */,
+				F32476021C54452300D78F9D /* Main.storyboard */,
+				F32476051C54452300D78F9D /* Assets.xcassets */,
+				F32476071C54452300D78F9D /* LaunchScreen.storyboard */,
+				F324760A1C54452300D78F9D /* Info.plist */,
+				F3F8155E1C549522007DADA2 /* ApiCenter.swift */,
+			);
+			path = policewatch5;
+			sourceTree = "<group>";
+		};
+		F32476121C54452300D78F9D /* policewatch5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F32476131C54452300D78F9D /* policewatch5Tests.swift */,
+				F32476151C54452300D78F9D /* Info.plist */,
+			);
+			path = policewatch5Tests;
+			sourceTree = "<group>";
+		};
+		F324761D1C54452300D78F9D /* policewatch5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F324761E1C54452300D78F9D /* policewatch5UITests.swift */,
+				F32476201C54452300D78F9D /* Info.plist */,
+			);
+			path = policewatch5UITests;
+			sourceTree = "<group>";
+		};
+		F32476271C54452300D78F9D /* policewatch5 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F32476281C54452300D78F9D /* Interface.storyboard */,
+				F324762B1C54452300D78F9D /* Assets.xcassets */,
+				F324762D1C54452300D78F9D /* Info.plist */,
+			);
+			path = "policewatch5 WatchKit App";
+			sourceTree = "<group>";
+		};
+		F32476361C54452400D78F9D /* policewatch5 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F32476391C54452400D78F9D /* InterfaceController.swift */,
+				F324763B1C54452400D78F9D /* ExtensionDelegate.swift */,
+				F324763D1C54452400D78F9D /* NotificationController.swift */,
+				F324763F1C54452400D78F9D /* Assets.xcassets */,
+				F32476411C54452400D78F9D /* Info.plist */,
+				F32476371C54452400D78F9D /* Supporting Files */,
+			);
+			path = "policewatch5 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		F32476371C54452400D78F9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F32476381C54452400D78F9D /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F32475FA1C54452300D78F9D /* policewatch5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F324764C1C54452400D78F9D /* Build configuration list for PBXNativeTarget "policewatch5" */;
+			buildPhases = (
+				F32475F71C54452300D78F9D /* Sources */,
+				F32475F81C54452300D78F9D /* Frameworks */,
+				F32475F91C54452300D78F9D /* Resources */,
+				F324764B1C54452400D78F9D /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F32476261C54452300D78F9D /* PBXTargetDependency */,
+			);
+			name = policewatch5;
+			productName = policewatch5;
+			productReference = F32475FB1C54452300D78F9D /* policewatch5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F324760E1C54452300D78F9D /* policewatch5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F324764F1C54452400D78F9D /* Build configuration list for PBXNativeTarget "policewatch5Tests" */;
+			buildPhases = (
+				F324760B1C54452300D78F9D /* Sources */,
+				F324760C1C54452300D78F9D /* Frameworks */,
+				F324760D1C54452300D78F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F32476111C54452300D78F9D /* PBXTargetDependency */,
+			);
+			name = policewatch5Tests;
+			productName = policewatch5Tests;
+			productReference = F324760F1C54452300D78F9D /* policewatch5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F32476191C54452300D78F9D /* policewatch5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32476521C54452400D78F9D /* Build configuration list for PBXNativeTarget "policewatch5UITests" */;
+			buildPhases = (
+				F32476161C54452300D78F9D /* Sources */,
+				F32476171C54452300D78F9D /* Frameworks */,
+				F32476181C54452300D78F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F324761C1C54452300D78F9D /* PBXTargetDependency */,
+			);
+			name = policewatch5UITests;
+			productName = policewatch5UITests;
+			productReference = F324761A1C54452300D78F9D /* policewatch5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F32476221C54452300D78F9D /* policewatch5 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32476481C54452400D78F9D /* Build configuration list for PBXNativeTarget "policewatch5 WatchKit App" */;
+			buildPhases = (
+				F32476211C54452300D78F9D /* Resources */,
+				F32476471C54452400D78F9D /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F32476351C54452400D78F9D /* PBXTargetDependency */,
+			);
+			name = "policewatch5 WatchKit App";
+			productName = "policewatch5 WatchKit App";
+			productReference = F32476231C54452300D78F9D /* policewatch5 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F32476311C54452400D78F9D /* policewatch5 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F32476441C54452400D78F9D /* Build configuration list for PBXNativeTarget "policewatch5 WatchKit Extension" */;
+			buildPhases = (
+				F324762E1C54452400D78F9D /* Sources */,
+				F324762F1C54452400D78F9D /* Frameworks */,
+				F32476301C54452400D78F9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "policewatch5 WatchKit Extension";
+			productName = "policewatch5 WatchKit Extension";
+			productReference = F32476321C54452400D78F9D /* policewatch5 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F32475F31C54452300D78F9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Joseph Gao";
+				TargetAttributes = {
+					F32475FA1C54452300D78F9D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F324760E1C54452300D78F9D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F32475FA1C54452300D78F9D;
+					};
+					F32476191C54452300D78F9D = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = F32475FA1C54452300D78F9D;
+					};
+					F32476221C54452300D78F9D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					F32476311C54452400D78F9D = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = F32475F61C54452300D78F9D /* Build configuration list for PBXProject "policewatch5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F32475F21C54452300D78F9D;
+			productRefGroup = F32475FC1C54452300D78F9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F32475FA1C54452300D78F9D /* policewatch5 */,
+				F324760E1C54452300D78F9D /* policewatch5Tests */,
+				F32476191C54452300D78F9D /* policewatch5UITests */,
+				F32476221C54452300D78F9D /* policewatch5 WatchKit App */,
+				F32476311C54452400D78F9D /* policewatch5 WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F32475F91C54452300D78F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32476091C54452300D78F9D /* LaunchScreen.storyboard in Resources */,
+				F32476061C54452300D78F9D /* Assets.xcassets in Resources */,
+				F32476041C54452300D78F9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F324760D1C54452300D78F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32476181C54452300D78F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32476211C54452300D78F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F324762C1C54452300D78F9D /* Assets.xcassets in Resources */,
+				F324762A1C54452300D78F9D /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32476301C54452400D78F9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32476401C54452400D78F9D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F32475F71C54452300D78F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3F8155F1C549522007DADA2 /* ApiCenter.swift in Sources */,
+				F32476011C54452300D78F9D /* ViewController.swift in Sources */,
+				F32475FF1C54452300D78F9D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F324760B1C54452300D78F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F32476141C54452300D78F9D /* policewatch5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F32476161C54452300D78F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F324761F1C54452300D78F9D /* policewatch5UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F324762E1C54452400D78F9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F324763E1C54452400D78F9D /* NotificationController.swift in Sources */,
+				F324763C1C54452400D78F9D /* ExtensionDelegate.swift in Sources */,
+				F324763A1C54452400D78F9D /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F32476111C54452300D78F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F32475FA1C54452300D78F9D /* policewatch5 */;
+			targetProxy = F32476101C54452300D78F9D /* PBXContainerItemProxy */;
+		};
+		F324761C1C54452300D78F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F32475FA1C54452300D78F9D /* policewatch5 */;
+			targetProxy = F324761B1C54452300D78F9D /* PBXContainerItemProxy */;
+		};
+		F32476261C54452300D78F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F32476221C54452300D78F9D /* policewatch5 WatchKit App */;
+			targetProxy = F32476251C54452300D78F9D /* PBXContainerItemProxy */;
+		};
+		F32476351C54452400D78F9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F32476311C54452400D78F9D /* policewatch5 WatchKit Extension */;
+			targetProxy = F32476341C54452400D78F9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F32476021C54452300D78F9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32476031C54452300D78F9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F32476071C54452300D78F9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32476081C54452300D78F9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F32476281C54452300D78F9D /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F32476291C54452300D78F9D /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F32476421C54452400D78F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F32476431C54452400D78F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F32476451C54452400D78F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "policewatch5 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.policewatch5.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		F32476461C54452400D78F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "policewatch5 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.policewatch5.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		F32476491C54452400D78F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = policewatch5_WatchKit_Extension;
+				INFOPLIST_FILE = "policewatch5 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.policewatch5.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		F324764A1C54452400D78F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = policewatch5_WatchKit_Extension;
+				INFOPLIST_FILE = "policewatch5 WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.policewatch5.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		F324764D1C54452400D78F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = policewatch5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.policewatch5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F324764E1C54452400D78F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = policewatch5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.policewatch5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F32476501C54452400D78F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = policewatch5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.policewatch5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/policewatch5.app/policewatch5";
+			};
+			name = Debug;
+		};
+		F32476511C54452400D78F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = policewatch5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.policewatch5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/policewatch5.app/policewatch5";
+			};
+			name = Release;
+		};
+		F32476531C54452400D78F9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = policewatch5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.policewatch5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = policewatch5;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F32476541C54452400D78F9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = policewatch5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.policewatch5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = policewatch5;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F32475F61C54452300D78F9D /* Build configuration list for PBXProject "policewatch5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32476421C54452400D78F9D /* Debug */,
+				F32476431C54452400D78F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32476441C54452400D78F9D /* Build configuration list for PBXNativeTarget "policewatch5 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32476451C54452400D78F9D /* Debug */,
+				F32476461C54452400D78F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32476481C54452400D78F9D /* Build configuration list for PBXNativeTarget "policewatch5 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32476491C54452400D78F9D /* Debug */,
+				F324764A1C54452400D78F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F324764C1C54452400D78F9D /* Build configuration list for PBXNativeTarget "policewatch5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F324764D1C54452400D78F9D /* Debug */,
+				F324764E1C54452400D78F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F324764F1C54452400D78F9D /* Build configuration list for PBXNativeTarget "policewatch5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32476501C54452400D78F9D /* Debug */,
+				F32476511C54452400D78F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F32476521C54452400D78F9D /* Build configuration list for PBXNativeTarget "policewatch5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F32476531C54452400D78F9D /* Debug */,
+				F32476541C54452400D78F9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F32475F31C54452300D78F9D /* Project object */;
+}
